@@ -11,7 +11,7 @@ display = pygame.display.set_mode((800, 600), 0, 32)
 display.fill((255, 255, 255))
 pygame.display.set_caption('Sierpinski triangle')
 
-colors = [(0, 255, 0), (255, 0 ,0), (0, 0, 255)]
+colors = [(0, 255, 0), (255, 0, 0), (0, 0, 255)]
 w, h = pygame.display.get_surface().get_size()
 points = [[w / 2, 1], [1, h], [w, h]]
 currentPoint = [0, 0]
