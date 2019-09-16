@@ -3,14 +3,14 @@ from random import randrange
 
 iterations = input('Iterations: ')
 
-win = GraphWin('test', 800, 600)
+win = GraphWin('Sierpinski Triangle', 800, 600)
 colors = ['green', 'red', 'blue']
 points = [[399, 1], [1, 599], [799, 599]]
 
 currentPoint = [100, 200]
 for i in range(int(iterations)):
     pIndex = randrange(3)
-    currentPoint = [+
+    currentPoint = [
         (points[pIndex][0] + currentPoint[0]) / 2,
         (points[pIndex][1] + currentPoint[1]) / 2
     ]
