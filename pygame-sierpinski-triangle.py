@@ -27,6 +27,9 @@ for i in range(iterations):
     if not i % 100:
         pygame.display.update()
 
+pygame.display.update()
+
+
 while True:
     for event in pygame.event.get():
         if event.type == QUIT:
