@@ -1,5 +1,6 @@
 # python code to create a Sierpinski triangle
-import pygame, sys
+import pygame
+import sys
 from pygame.locals import *
 from random import randrange
 
